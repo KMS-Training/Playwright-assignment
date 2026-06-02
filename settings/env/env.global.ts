@@ -21,11 +21,11 @@ export default class Env {
   }
 
   static get USERNAME(): string {
-    return this.getEnvVar('USERNAME');
+    return this.getEnvVar('H_USERNAME');
   }
 
   static get PASSWORD(): string {
-    return this.getEnvVar('PASSWORD');
+    return this.getEnvVar('H_PASSWORD');
   }
 
   static get WEB_URL(): string {
